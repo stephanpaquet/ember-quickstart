@@ -1,6 +1,9 @@
 <h2 id="title">PeopleTracker</h2>
 
+{{#link-to "index"}}Home{{/link-to}}
+{{#link-to "artists"}}Bands{{/link-to}}
 {{#link-to "scientists"}}Scientists{{/link-to}}
 {{#link-to "programmers"}}Programmers{{/link-to}}
 
+<h3><button {{action "fetchData"}}>Fetch datas</button></h3>
 {{outlet}}
